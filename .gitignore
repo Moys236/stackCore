@@ -1,0 +1,75 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Ignore configuration files with sensitive data
+config/Database.php
+.env
+.env.local
+
+# Ignore uploaded files and user-generated content
+uploads/*
+!uploads/.gitkeep
+images/products/*
+!images/products/.gitkeep
+
+# Ignore logs
+*.log
+logs/
+error_log
+
+# Ignore temporary files
+tmp/
+temp/
+cache/
+
+# Ignore vendor dependencies (if using Composer)
+vendor/
+composer.lock
+
+# Ignore node modules (if using npm)
+node_modules/
+package-lock.json
+
+# Ignore build files
+dist/
+build/
+
+# Ignore backup files
+*.bak
+*.backup
+*.old
+*~
+
+# Ignore database dumps
+*.sql
+!database/schema.sql
+!database/sample_data.sql
+
+# Ignore OS-specific files
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Ignore PHP-specific files
+.phpunit.result.cache
+phpunit.xml
+
+# Ignore session files
+sessions/
+
+# Ignore compiled files
+*.compiled
+
+# Keep important empty directories
+!.gitkeep
