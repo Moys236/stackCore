@@ -6,7 +6,7 @@ session_start();
 
 // En-têtes pour les requêtes AJAX
 header('Content-Type: application/json');
-require_once 'config/Database.php';
+require_once '../config/Database.php';
 $database = new Database();
 $pdo = $database->getConnection();
 

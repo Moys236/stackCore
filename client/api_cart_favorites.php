@@ -6,7 +6,7 @@ header('Access-Control-Allow-Methods: GET, POST, OPTIONS');
 header('Access-Control-Allow-Headers: Content-Type');
 
 // Configuration de la base de données
-require_once 'config/Database.php';
+require_once '../config/Database.php';
 // Gérer les requêtes OPTIONS pour CORS
 if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     http_response_code(200);

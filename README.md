@@ -4,7 +4,6 @@ A modern, full-featured B2B e-commerce platform built with PHP, MySQL, and vanil
 
 ![PHP](https://img.shields.io/badge/PHP-7.4%2B-blue)
 ![MySQL](https://img.shields.io/badge/MySQL-5.7%2B-orange)
-![License](https://img.shields.io/badge/license-MIT-green)
 
 ## 🚀 Features
 
@@ -230,9 +229,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- Portfolio: [yourwebsite.com](https://yourwebsite.com)
+by Mohamed Yassine CHLIAH
 
 ## 🙏 Acknowledgments
 
@@ -242,7 +239,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-For questions or support, please open an issue or contact [your.email@example.com](mailto:your.email@example.com)
+For questions or support, please open an issue or contact [mohamdysn2365@gmail.com](mailto:mohamdysn2365@gmail.com)
 
 ---
 

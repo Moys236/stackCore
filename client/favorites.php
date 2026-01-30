@@ -6,7 +6,7 @@ if (!isset($_SESSION['user_id'])) {
     exit;
 }
 
-include_once 'config/Database.php';
+include_once '../config/Database.php';
 include_once 'helpers/cart_functions.php';
 
 $database = new Database();

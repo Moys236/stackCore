@@ -5,7 +5,7 @@ header('Access-Control-Allow-Methods: POST');
 header('Access-Control-Allow-Headers: Access-Control-Allow-Headers, Content-Type, Access-Control-Allow-Methods, Authorization, X-Requested-With');
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    include_once '../config/Database.php';
+    include_once '../../config/Database.php';
     include_once '../classes/User.php';
 
     $database = new Database();

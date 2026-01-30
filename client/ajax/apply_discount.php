@@ -8,7 +8,7 @@ if (!isset($_SESSION['user_id']) || !$_POST) {
     exit;
 }
 
-require_once '../config/Database.php';
+require_once '../../config/Database.php';
 $database = new Database();
 $pdo = $database->getConnection();
 

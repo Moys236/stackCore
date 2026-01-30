@@ -8,7 +8,7 @@ if (!isset($_SESSION['user_id'])) {
 }
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    include_once '../config/Database.php';
+    include_once '../../config/Database.php';
 
     $database = new Database();
     $db = $database->getConnection();

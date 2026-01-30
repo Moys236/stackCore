@@ -6,7 +6,7 @@ if (!isset($_SESSION['user_id'])) {
     exit;
 }
 
-require_once 'config/Database.php';
+require_once '../config/Database.php';
 $database = new Database();
 $pdo = $database->getConnection();
 include_once 'helpers/cart_functions.php';

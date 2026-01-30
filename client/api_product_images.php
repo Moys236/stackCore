@@ -6,7 +6,7 @@ header('Access-Control-Allow-Methods: GET, POST');
 header('Access-Control-Allow-Headers: Content-Type');
 
 // Configuration de la base de données
-require_once 'config/Database.php';
+require_once '../config/Database.php';
 $database = new Database();
 $pdo = $database->getConnection();
 
